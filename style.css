@@ -1,0 +1,54 @@
+table {
+    border-collapse: collapse;
+    background: white;
+ }
+ th {
+    color: #DE3163;
+    background-color: #D5F5E3;
+    font-weight: bold;
+ }
+ td {
+    font-weight: bold;
+ }
+
+
+
+ .gumb {
+   background-color: #D5F5E3;
+   color: black;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+ }
+ 
+ .meni {
+   position: relative;
+   display: inline-table;
+ }
+ 
+ .sadrzaj {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 80px;
+   box-shadow: 0px 8px 16px 0px #c495a2;
+   z-index: 1;
+ }
+ 
+ .sadrzaj a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+ 
+ .sadrzaj a:hover {background-color: #f3e1e1}
+ 
+ .meni:hover .sadrzaj {
+   display: block;
+ }
+ 
+ .meni:hover .gumb {
+   background-color: #DE3163;}
