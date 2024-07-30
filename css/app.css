@@ -1,0 +1,39 @@
+body{
+    background: rgb(84, 88, 72);}
+
+img {
+    float: left;
+    width:  270px;
+    height: 270px;
+    object-fit: cover; 
+    padding: 2rem;
+    filter: grayscale();
+}
+
+img:hover {
+    filter: none;
+}
+
+h1{
+    text-align: center;
+    font:
+        4rem "Times New Roman",
+        cursive;
+    font-weight: bold;
+    padding: 1rem;
+    color: rgb(250, 235, 207);
+    text-shadow: 2px 2px #0f0f0f;
+}
+
+.button:hover{
+    color: rgb(73, 77, 61);
+    background-color: rgb(230, 230, 214);
+}
+
+.button{
+    color: rgb(230, 230, 214);
+    background-color: rgb(73, 77, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
